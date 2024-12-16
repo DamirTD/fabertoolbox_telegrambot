@@ -22,7 +22,6 @@ func main() {
 	}
 
 	service := &bot.Service{Bot: telegramBot}
-
 	service.RegisterHandlers()
 
 	telegramBot.Start()
